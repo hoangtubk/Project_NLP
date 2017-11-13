@@ -14,7 +14,7 @@ end
 ---@param word string
 ---@return boolean true if word is nil or "" and else
 function Dictionary:word_is_nil(word)
-    if word == nil or word == "" then
+    if word == nil or word == "" or word == " " or #word > 7 then
 
         return true
     end
