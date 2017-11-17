@@ -1,0 +1,1 @@
+theo đó ngành y đa khoa có điểm chuẩn cao nhất là <number> điểm kế đến là ngành răng hàm mặt <number> điểm Điểm trúng tuyển của ngành dược là <number> điểm ngành lấy điểm thấp nhất là y tế công cộng <number> điểm 

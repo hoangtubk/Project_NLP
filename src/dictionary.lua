@@ -87,10 +87,8 @@ function Dictionary:save_dict(file_name)
 end
 
 ---@param file_name string
----@return table
 function Dictionary:load_dict(file_name)
-
-    return torch.load(file_name)
+    self._dict =  torch.load(file_name)
 end
 
 ---@return table
@@ -103,6 +101,21 @@ end
 function Dictionary:get_dict_size()
 
     return #self._dict
+end
+
+---Tra ve index cua tu trong tu dien
+---@param word string
+---@return number index of word
+---@return number = -1 if no result
+function Dictionary:get_index_by_word(word)
+    for k, v in pairs(self._dict) do
+        if word == v then
+
+            return k
+        end
+    end
+
+    return -1
 end
 
 --test = Dictionary()

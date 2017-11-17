@@ -5,6 +5,7 @@
 
 utils = require('pl.utils')
 class = require('pl.class')
+
 ---@class
 Utils = class()
 
@@ -26,7 +27,7 @@ end
 ---@return string error message
 function Utils:write_file(file_name, str)
 
-    return utils.writefile(file_name, str)
+    return utils.writefile(file_name, str, false)
 end
 
 ---@param path string path of dir
@@ -44,8 +45,9 @@ function Utils:find_file(path)
     return t
 end
 
-test = Utils()
-a = test:read_file('xxx.txt')
-b = test:write_file('xxx.txt', 'hoang lung')
-m = test:find_file('/home/tuhoangbk/20171/Project_NLP/src')
+--local test = Utils()
+
+--a = test:read_file('xxx.txt')
+--b = test:write_file('xxx.txt', 'hoang lung')
+--m = test:find_file('/home/tuhoangbk/20171/Project_NLP/src')
 --print(m)
