@@ -1,0 +1,1 @@
+. Câu_chuyện giao_thông Chiếc KIA Morning đi làn bên trong xe_tải , cố tăng_tốc tránh xe_máy phía trước , nhưng không tính_toán hợp_lí giữa tốc_độ và khoảng_trống , nên đã bị xe_tải tông thẳng từ phía sau . Tai_nạn xảy_ra tại huyện Thái_Hòa ( Nghệ_An )

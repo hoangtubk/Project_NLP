@@ -1,0 +1,1 @@
+. Để chạy được chương_trình Xpeak , chúng_tôi khuyến_nghị : - Bạn nên dùng trình_duyệt Chrome hoặc Cốc_cốc để chương_trình chạy tối_ưu nhất . - Bạn cần cho_phép trình_duyệt sử_dụng microphone khi được yêu_cầu ( để chương_trình có_thể " ghi " lại câu nói của bạn ) . - Đối_với máy_tính , bạn cần có microphone để ghi_âm . Còn với điện_thoại thì không cần microphone . L . T

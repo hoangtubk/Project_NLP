@@ -1,0 +1,1 @@
+. * Tiếp_tục cập_nhật . 1 . Các trường ĐH , CĐ khu_vực phía Bắc ĐH Thương_mại ĐH Sân_khấu và Điện_ảnh Hà_Nội ĐH Mỹ_thuật Công_nghiệp ĐH Tài_chính - Ngân_hàng Hà_Nội ĐH Sư_phạm Hà_Nội 2 2 . Các trường ĐH , CĐ khu_vực miền Trung và Tây_Nguyên 3 . Các trường ĐH , CĐ khu_vực phía Nam ĐH Kinh_tế - Tài_chính TPHCM_ĐH Cần_Thơ 4 . Điểm_chuẩn khối trường Công_an : XEM_CHI_TIẾT_TẠI_ĐÂY 5

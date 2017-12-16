@@ -1,0 +1,1 @@
+. Tiếp_theo các ngành Sư_phạm Ngữ_Văn có điểm_chuẩn 25 ; Sư_phạm Tiếng_Anh có điểm_chuẩn 24,5 ; Sư_phạm Địa_lý 24 … Ngoài_ra , nhiều ngành có điểm_chuẩn bằng ngưỡng điểm đầu_vào Bộ GD - ĐT quy_định
