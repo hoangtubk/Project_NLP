@@ -1,1 +1,0 @@
-.  Để chạy được chương trình Xpeak, chúng tôi khuyến nghị: - Bạn nên dùng trình duyệt Chrome hoặc Cốc cốc để chương trình chạy tối ưu nhất. - Bạn cần cho phép trình duyệt sử dụng microphone khi được yêu cầu (để chương trình có thể "ghi" lại câu nói của bạn). - Đối với máy tính, bạn cần có microphone để ghi âm. Còn với điện thoại thì không cần microphone.  L.T

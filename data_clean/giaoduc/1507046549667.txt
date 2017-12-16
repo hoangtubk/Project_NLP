@@ -1,1 +1,0 @@
-so với chỉ tiêu được giao tuyển sinh <number> học sinh năm nay số lượng học sinh được xét trúng tuyển vào thpt chuyên lê quý Đôn Đà nẵng tăng <number> học sinh trong đó có <number> học sinh Đà nẵng và <number> học sinh quảng nam Điểm trúng tuyển vào lớp <number> chuyên anh cao nhất <number> điểm đối với hs Đà nẵng và <number> điểm đối với hs quảng nam 

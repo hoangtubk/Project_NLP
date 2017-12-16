@@ -14,7 +14,7 @@ end
 ---@param word string
 ---@return boolean true if word is nil or "" and else
 function Dictionary:word_is_nil(word)
-    if word == nil or word == "" or word == " " or #word > 7 then
+    if word == nil or word == "" or word == " " then
 
         return true
     end
@@ -106,7 +106,7 @@ end
 ---Tra ve index cua tu trong tu dien
 ---@param word string
 ---@return number index of word
----@return number = -1 if no result
+---@return number = (dict_size + 1) if no result
 function Dictionary:get_index_by_word(word)
     for k, v in pairs(self._dict) do
         if word == v then
@@ -115,7 +115,7 @@ function Dictionary:get_index_by_word(word)
         end
     end
 
-    return -1
+    return self:get_dict_size() + 1
 end
 
 --test = Dictionary()

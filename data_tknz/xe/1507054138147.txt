@@ -1,0 +1,1 @@
+. Câu_chuyện giao_thông Chỉ dựa vào hình_ảnh trong clip , chưa_thể phân_định xe_máy hay xe taxi đi sai , nhưng có_thể thấy rằng , việc đi xe_máy len giữa hai ôtô luôn tiềm_ẩn những tai_nạn mà đối_tượng chịu phần thiệt luôn là xe_máy

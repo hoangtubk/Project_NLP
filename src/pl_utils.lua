@@ -3,6 +3,7 @@
 --- DateTime: 10/11/2017 13:16
 ---
 
+include('tokenizer.lua')
 utils = require('pl.utils')
 class = require('pl.class')
 
@@ -11,7 +12,7 @@ Utils = class()
 
 ---@param
 function Utils:_init()
-
+    self.tknz = Tokenizer()
 end
 
 ---@param file_name string pathfile
@@ -26,6 +27,13 @@ end
 ---@return boolean true or nil if success
 ---@return string error message
 function Utils:write_file(file_name, str)
+    ---Create file if not exist
+    local mono_paths = self.tknz:split_word_only(file_name, '/')
+    local path = mono_paths[1]
+    for i = 2, (#mono_paths - 1) do
+        path = path .. '/'  .. mono_paths[i]
+    end
+    paths.mkdir(path)
 
     return utils.writefile(file_name, str, false)
 end
@@ -46,7 +54,7 @@ function Utils:find_file(path)
 end
 
 --local test = Utils()
-
+--test:write_file('../abc/a.txt', 'ahihi')
 --a = test:read_file('xxx.txt')
 --b = test:write_file('xxx.txt', 'hoang lung')
 --m = test:find_file('/home/tuhoangbk/20171/Project_NLP/src')

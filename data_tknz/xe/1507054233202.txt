@@ -1,0 +1,1 @@
+. Xin đường hay cướp đường ? Khi vào hoặc ra khỏi đường_cao_tốc , phải giảm tốc_độ và nhường đường cho xe đang đi trên làn_đường chính ; chỉ được chuyển làn_đường ở những nơi cho_phép ; khi chuyển làn , luôn chú_ý quan_sát phía sau và bật xi - nhan báo chuyển làn ; không chuyển làn kiểu cắt đầu xe khác và chuyển nhiều làn_đường cùng lúc
