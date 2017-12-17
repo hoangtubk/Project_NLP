@@ -14,7 +14,23 @@ end
 ---@param word string
 ---@return boolean true if word is nil or "" and else
 function Dictionary:word_is_nil(word)
-    if word == nil or word == "" or word == " " then
+    if word == nil or word == "" or word == " " or word == '‘' or word == '’' or word == '•'then
+
+        return true
+    end
+    if string.find(word, 'www') then
+
+        return true
+    end
+    if string.find(word, 'http') then
+
+        return true
+    end
+    if string.find(word, 'com') then
+
+        return true
+    end
+    if string.find(word, '%d.') then
 
         return true
     end

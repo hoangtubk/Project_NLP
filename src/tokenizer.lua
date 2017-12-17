@@ -27,8 +27,18 @@ function Tokenizer:split_word(inputstr, sep)
         if tonumber(str) ~= nil then
             str = '<number>'
         end
+        if string.find(str, 'www') then
+            goto continue
+        end
+        if string.find(str, 'http') then
+            goto continue
+        end
+        if string.find(str, '%d.') then
+            goto continue
+        end
         t[i] = str
         i = i + 1
+        ::continue::
     end
     self._tokens = t
     return t

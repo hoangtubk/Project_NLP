@@ -10,7 +10,7 @@ class = require('pl.class')
 
 Model = class()
 local dict = Dictionary()
-dict:load_dict('dictionary.t7')
+--dict:load_dict('dictionary.t7')
 function Model:_init()
     self.dict_size = dict:get_dict_size()
     self.hidden_size = 200

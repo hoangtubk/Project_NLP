@@ -29,10 +29,10 @@ local path_data_index_all = '../data_index/newspaper'
 local index_path_data = '../data_index'
 
 local is_clean = false
-local is_create_dict = false
-local is_save_dict = false
+local is_create_dict = true
+local is_save_dict = true
 local is_indexing = false
-local is_training = true
+local is_training = false
 
 local epochs = 50
 local mlp = model:build_brnn()
@@ -48,8 +48,8 @@ end
 if is_create_dict then
     print('Creating dictionary')
     local papers = utils:find_file(path_data_all)
-    for i = 1, #papers do
-        local content = utils:read_file((path_data_all .. '/' .. papers[i]))
+    for i = 1, 100 do
+        local content = utils:read_file((path_data_all .. '/' .. papers[torch.random(#papers)]))
         local tokens = tknz:split_word_only(content, nil)
         for j = 1, #tokens do
             dict:add_word(tokens[j])

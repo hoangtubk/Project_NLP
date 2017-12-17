@@ -5,8 +5,8 @@
 
 require('nn')
 require('rnn')
-require('cutorch')
-require('cunn')
+--require('cutorch')
+--require('cunn')
 class = require('pl.class')
 
 include('pl_utils.lua')
@@ -29,7 +29,7 @@ function Training:_init()
     self.train_size = 57057
     self.batch_size = 256
     self.max_len = 10000
-    self.use_cuda = true
+    self.use_cuda = false
 end
 
 ---@param table_inputs table
